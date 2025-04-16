@@ -1,0 +1,12 @@
+<record id="view_customer_report_line_tree" model="ir.ui.view">
+    <field name="name">customer.report.line.tree</field>
+    <field name="model">customer.report.line</field>
+    <field name="arch" type="xml">
+        <tree string="Clienti Coinvolti">
+            <field name="partner_id"/>
+            <field name="invoice_count"/>
+            <field name="order_count"/>
+            <field name="indirect_order_count"/>
+        </tree>
+    </field>
+</record>
