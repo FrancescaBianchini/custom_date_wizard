@@ -1,0 +1,7 @@
+<odoo>
+    <menuitem id="menu_customer_date_wizard_root" name="Customer Tools" sequence="10"/>
+
+    <menuitem id="menu_customer_date_wizard" name="Filter Customers by Date"
+              parent="menu_customer_date_wizard_root"
+              action="action_customer_date_wizard"/>
+</odoo>
